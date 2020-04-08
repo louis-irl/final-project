@@ -52,7 +52,7 @@ figure>img{
 article{
     width: 66%;
     float: left;
-    height: 78.5%;
+    height: 100%;
 }
 footer{
     clear: both;
@@ -74,4 +74,19 @@ table{
 }
 .specs{
     float: right;
+}
+blockquote{
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin: 4% 0 4% 6%;
+    background-color: #373b41;
+    color: #c5c8c6;
+    padding: 3%;
+    border-left: 15px solid #5f819d;
+}
+blockquote:before{
+    content: "\201C";
+    font-size: 4em;
+    vertical-align: -.35em;
+    line-height: 0;
 }
