@@ -32,6 +32,7 @@ figure>img{
 article{
     width: 66%;
     float: left;
+    height: 100%;
 }
 footer{
     clear: both;
@@ -47,4 +48,10 @@ table, th, td{
 }
 th, td{
     padding: 5px;
+}
+table{
+    float: right;
+}
+.specs{
+    float: right;
 }
