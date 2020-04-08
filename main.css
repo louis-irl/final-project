@@ -10,7 +10,10 @@ header{
     text-align: center;
     
 }
-
+h1{
+    font-size: 3em;
+    color: #85678F;
+}
 nav>ul{
     list-style-type: none;
     display: inline-block;
@@ -36,7 +39,7 @@ nav>ul>li>a:hover{
     width: 75%;
     margin: auto;
     background-color: #d0d0d0;
-    padding: 2%;
+    padding: 5%;
 }
 figure{
     float: right;
